@@ -8,7 +8,7 @@
             "servertype": "jlink",
             "serverpath": "${env:SEGGER_PATH}/JLinkGDBServer",
             "serialNumber": "801048071", // connection by serial number, or:
-            // "ipAddress": "tunnel:801048071", // connection through tunnel, or:
+            "ipAddress": "tunnel:801048071", // connection through tunnel, or:
             //"ipAddress": "192.168.1.178",
             "cwd": "${workspaceFolder}",
             "executable": "${command:cmake.launchTargetPath}",
